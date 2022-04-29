@@ -121,7 +121,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Class2.cs" />
+    <Compile Include="Export.cs" />
     <Compile Include="Connection.cs" />
     <Compile Include="Data.cs" />
     <Compile Include="EasyLIfe.xaml.cs">
@@ -135,8 +135,8 @@
       <DependentUpon>EmailG.xaml</DependentUpon>
     </Compile>
     <Compile Include="ExcelWork.cs" />
-    <Compile Include="Functions.cs" />
-    <Compile Include="Logic.cs" />
+    <Compile Include="Logic\Functions.cs" />
+    <Compile Include="Logic\Logic.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -170,9 +170,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="logic\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Resource Include="trans.png" />
   </ItemGroup>
